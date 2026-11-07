@@ -1,0 +1,4 @@
+[Siege]
+description = "Attackers storm the objective, defenders fortify and hold. The host places the objective, spawns and wall sections in-game; layouts are saved per map."
+path = siege.lua
+restart = true

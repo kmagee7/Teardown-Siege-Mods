@@ -1,0 +1,13 @@
+<group name="physics_cannonball_prefab">
+	<body name="physics_cannonball" tags="awake physicsball" dynamic="true">
+		<!-- Exact original 9x9x9 user cannonball at native voxel scale.
+		     Physics does not require a 6x6x6 model. -->
+		<vox
+			name="physics_cannonball_shape"
+			tags="cannonball physicsball unbreakable"
+			pos="0 0.1 0"
+			density="75"
+			strength="100"
+			file="MOD/vox/cannonball.vox"/>
+	</body>
+</group>

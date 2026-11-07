@@ -1,0 +1,12 @@
+<prefab version="1.5.4">
+	<group name="usable_bow" pos="0 0 0">
+		<group name="tool_space">
+			<body dynamic="false">
+				<vox name="bow_body" pos="0 0 0" scale="0.5" file="MOD/bow/bow.vox"/>
+				<vox name="bow_arrow" tags="bowarrow" pos="0 -50 0" scale="0.5" file="MOD/bow/arrow.vox"/>
+			</body>
+			<location name="righthand" tags="name=righthand ik_hand" pos="0.07 0.7 0.3" rot="0 90 0"/>
+			<location name="lefthand" tags="name=lefthand ik_hand" pos="0.07 0.7 -0.1" rot="0 90 0"/>
+		</group>
+	</group>
+</prefab>

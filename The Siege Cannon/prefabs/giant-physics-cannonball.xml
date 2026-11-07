@@ -1,0 +1,11 @@
+<group name="giant_physics_cannonball_prefab">
+	<body name="giant_physics_cannonball" tags="awake physicsball giantball" dynamic="true">
+		<vox
+			name="giant_physics_cannonball_shape"
+			tags="cannonball physicsball giantball unbreakable"
+			pos="0 0 0"
+			density="400"
+			strength="100"
+			file="MOD/vox/giant-cannonball.vox"/>
+	</body>
+</group>

@@ -1,0 +1,19 @@
+<group name="tethered_physics_cannonball_prefab">
+	<body name="tether_ball" tags="awake physicsball tetherball" dynamic="true">
+		<vox
+			name="tether_ball_shape"
+			tags="cannonball physicsball tetherball unbreakable"
+			pos="0 0.1 0"
+			density="75"
+			strength="100"
+			file="MOD/vox/cannonball.vox"/>
+		<!-- Overlapping native-scale shells enlarge the physical ball without the
+		     scaled-vox physics failure encountered by earlier test versions. -->
+		<vox pos="0.55 0.1 0" tags="cannonball tetherball unbreakable" density="12" strength="100" file="MOD/vox/cannonball.vox"/>
+		<vox pos="-0.55 0.1 0" tags="cannonball tetherball unbreakable" density="12" strength="100" file="MOD/vox/cannonball.vox"/>
+		<vox pos="0 0.65 0" tags="cannonball tetherball unbreakable" density="12" strength="100" file="MOD/vox/cannonball.vox"/>
+		<vox pos="0 -0.45 0" tags="cannonball tetherball unbreakable" density="12" strength="100" file="MOD/vox/cannonball.vox"/>
+		<vox pos="0 0.1 0.55" tags="cannonball tetherball unbreakable" density="12" strength="100" file="MOD/vox/cannonball.vox"/>
+		<vox pos="0 0.1 -0.55" tags="cannonball tetherball unbreakable" density="12" strength="100" file="MOD/vox/cannonball.vox"/>
+	</body>
+</group>

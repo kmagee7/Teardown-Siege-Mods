@@ -1,0 +1,19 @@
+<prefab version="1.5.4">
+	<group name="usable_cannon" pos="0 0 0">
+		<group name="tool_space">
+			<body dynamic="false">
+				<vox
+					name="cannon_body"
+					tags="cannon"
+					pos="0 0 0"
+					scale="0.2"
+					file="MOD/vox/handcannon.vox"/>
+			</body>
+			<!-- Third-person grip anchors. Their raised local Z positions make the
+			     cannon hang lower while keeping each hand touching the model. -->
+			<location name="righthand" tags="name=righthand ik_hand" pos="0.105 0.14 0.25" rot="0 90 0"/>
+			<location name="lefthand" tags="name=lefthand ik_hand" pos="0.105 0.60 0.25" rot="90 40 0"/>
+			<location name="muzzle" tags="name=muzzle" pos="0.105 1.16 0.125" rot="0 0 0"/>
+		</group>
+	</group>
+</prefab>

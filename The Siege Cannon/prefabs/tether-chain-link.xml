@@ -1,0 +1,11 @@
+<group name="tether_chain_link_prefab">
+	<body name="tether_chain_link" tags="awake tetherchainlink" dynamic="true">
+		<!-- Four metal bars form a small open rectangular chain link. -->
+		<!-- Voxbox positions are their lower corners, so these four bars surround
+		     an empty centre instead of crossing through one another. -->
+		<voxbox pos="-0.20 -0.05 -0.30" size="1 1 6" material="metal" color="0.72 0.75 0.78" density="12" strength="100"/>
+		<voxbox pos="0.10 -0.05 -0.30" size="1 1 6" material="metal" color="0.72 0.75 0.78" density="12" strength="100"/>
+		<voxbox pos="-0.10 -0.05 -0.30" size="2 1 1" material="metal" color="0.72 0.75 0.78" density="12" strength="100"/>
+		<voxbox pos="-0.10 -0.05 0.20" size="2 1 1" material="metal" color="0.72 0.75 0.78" density="12" strength="100"/>
+	</body>
+</group>

@@ -1,0 +1,11 @@
+<prefab version="0.9.3">
+	<group name="mini_cannonball" pos="0 0 0">
+		<vox
+			name="mini_cannonball_shape"
+			tags="cannonball mini"
+			pos="0 0 0"
+			scale="0.18"
+			prop="true"
+			file="MOD/vox/cannonball.vox"/>
+	</group>
+</prefab>
